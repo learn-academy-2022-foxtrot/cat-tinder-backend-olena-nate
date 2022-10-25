@@ -75,29 +75,6 @@ describe "PATCH /update" do
 end 
 
 
-# describe "DELETE /destroy" do 
-#   it "delete a certain cat" do 
 
-#     cat_params = {
-#         cat: {
-#         name: "Max",
-#         age: 13,
-#         enjoys: "eating and sleeping",
-#         image: "https://media.wired.co.uk/photos/60c8730fa81eb7f50b44037e/3:2/w_3329,h_2219,c_limit/1521-WIRED-Cat.jpeg"
-#     }
-#   }
-
-#   post '/cats', params: cat_params
-#     cat = Cat.first
-#     p "cat", cat
-
-#   delete "/cats/#{cat.id}"
-#   cat = Cat.first
-#   p "cat", cat
-
-#  expect(cat).to be_empty
-    
-#   end 
-# end 
 
 end
