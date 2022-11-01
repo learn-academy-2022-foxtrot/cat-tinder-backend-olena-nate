@@ -22,7 +22,12 @@ class CatsController < ApplicationController
     end
 
     def destroy
-       
+        cat = Cat.find(params[:id])
+        if cat.destroy
+            render json: cat
+        else
+            render json: cat.errors, status: 422
+            "/cats/#{cat.id}"
     end
 
 
