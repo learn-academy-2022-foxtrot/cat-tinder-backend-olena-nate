@@ -28,6 +28,7 @@ class CatsController < ApplicationController
         else
             render json: cat.errors, status: 422
             "/cats/#{cat.id}"
+        end
     end
 
 
